@@ -88,11 +88,13 @@ img {
   font-weight: 700;
   color: var(--dark-color);
   margin-bottom: 0.5rem;
+  direction: rtl;
 }
 
 .section-header p {
   font-size: 1.3rem;
   color: var(--dark-color);
+  direction: rtl;
 }
 
 .heading-border {
@@ -112,6 +114,7 @@ img {
   padding: 2rem 1.75rem;
   background: #fff;
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.3);
+  direction: rtl;
 }
 
 /* Navbar */
@@ -215,6 +218,7 @@ img {
   align-items: center;
   gap: 6rem;
   padding-bottom: 8rem;
+  direction: rtl;
 }
 
 .hero h1 {
@@ -222,6 +226,7 @@ img {
   line-height: 1.2;
   font-weight: 700;
   margin-bottom: 1rem;
+  direction: rtl;
 }
 
 .hero p {
@@ -229,6 +234,7 @@ img {
   margin-bottom: 2rem;
   line-height: 1.8;
   font-weight: 400;
+  direction: rtl;
 }
 
 .hero img {
@@ -249,7 +255,9 @@ img {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
+  direction: rtl;
 }
+
 
 .topic img {
   transition: transform 0.3s;
@@ -263,7 +271,9 @@ img {
   font-size: 1rem;
   font-weight: 700;
   margin: 0.5rem 0;
+  direction: rtl;
 }
+
 
 /* Chapter Cards */
 .chapter-cards {
@@ -289,6 +299,7 @@ img {
   background: var(--light-color);
   color: var(--dark-color);
   padding: 4rem 2rem 5rem;
+  direction: rtl;
 }
 
 .summary .section-lists {
@@ -325,31 +336,37 @@ img {
   color: #fff;
   flex: 1;
   padding: 4rem;
+  direction: rtl;
 }
 
 .info-content h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
   font-weight: 700;
+  direction: rtl;
 }
 
 .info-content p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
+  direction: rtl;
 }
 
 .info-content ul li {
   font-size: 1.2rem;
   line-height: 2;
+  direction: rtl;
 }
 
 .info-content i {
   margin-right: 0.5rem;
   color: var(--secondary-color);
+  direction: rtl;
 }
 
 .info-left {
   width: 50%;
+  
 }
 
 /* Takeaways */
@@ -375,6 +392,7 @@ img {
   gap: 4rem;
   align-items: center;
   justify-content: center;
+  direction: rtl;
 }
 
 .details img {
@@ -399,6 +417,7 @@ img {
 /* Author */
 .details + .details .details-flex {
   flex-direction: row-reverse;
+  direction: rtl;
 }
 
 .details ul {
@@ -472,6 +491,7 @@ img {
 .newsletter {
   text-align: center;
   margin: 0 2rem;
+  direction: rtl;
 }
 
 .newsletter-flex {
@@ -561,17 +581,20 @@ img {
   color: #fff;
   height: 250px;
   padding-top: 8rem;
+  direction: rtl;
 }
 
 .inner-header h1 {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
+  direction: rtl;
 }
 
 /* Contact Form */
 .contact-form p {
   margin-bottom: 3rem;
+  direction: rtl;
 }
 
 .contact-form input,
@@ -583,6 +606,7 @@ img {
   margin: 1.5rem 0;
   border: 1px solid #ccc;
   padding: 1.2rem 1rem;
+  direction: rtl;
 }
 
 .contact-form textarea {
@@ -602,10 +626,12 @@ img {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .location p {
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .location .map {
@@ -615,6 +641,7 @@ img {
   margin-bottom: 3rem;
   padding-bottom: 50%;
   border-radius: 0.25rem;
+  direction: rtl;
 }
 
 .location .map iframe {
