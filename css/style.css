@@ -376,15 +376,18 @@ img {
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   padding: 1.5rem 0;
+  direction: rtl;
 }
 
 .takeaways-cards .card {
   flex-direction: row;
-  text-align: left;
+  text-align: right;
+  direction: rtl;
 }
 
 .takeaways-cards .card i {
   margin-right: 1rem;
+  direction: rtl;
 }
 
 /* Details */
